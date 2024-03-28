@@ -1,0 +1,51 @@
+/* services -listing */
+
+.list-card{
+    width: 33%;
+}
+.right-list-head{
+    font-family: asmi;
+}
+.right-list-head h4{
+    font-size: 1.2rem;
+}
+.list-head{
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px 50px ;
+    border-bottom: 1px solid black;
+}
+
+.list-services{
+    flex-direction: column;
+    gap: 10px;
+    padding: var(--padding-inline);
+}
+.service-name h3,i{
+    font-size: 1.2rem;
+}
+.list-card{
+    padding:70px 20px;
+}
+.service-name {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: var(--padding-inline);
+    transition: 0.2s all ease-in-out;
+    font-family: asmi;
+}
+.service-name:hover{
+    background-color: var(--main-yellow);
+}
+.main-services-list{
+    flex-wrap: wrap;
+}
+.main-services-list .list-card:nth-child(even){
+    background-color: rgb(235, 234, 234);
+}
+.main-services-list .list-card:nth-child(even) .list-head{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
