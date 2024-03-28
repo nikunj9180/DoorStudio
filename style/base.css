@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
 @font-face {
     font-family: cocogoose;
-    src: URL(./assets/fonts/cocogoose/Cocogoose-Pro-Regular-trial.ttf);
+    src: URL(/assets/fonts/cocogoose/Cocogoose-Pro-Regular-trial.ttf);
 }
 @font-face {
     font-family: asmi;
-    src: URL(./assets/fonts/FontsFree-Net-AmsiPro-Black.ttf);
+    src: URL(/assets/fonts/FontsFree-Net-AmsiPro-Black.ttf);
 }
 *{
     margin: 0;
