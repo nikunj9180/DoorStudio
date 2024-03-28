@@ -47,7 +47,7 @@ nav.fixed{
     height: 100vh;
     position: relative;
     z-index: 9;
-    background: url(./assets/landing/banner.png);
+    background: url(../assets/landing/banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
