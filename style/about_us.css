@@ -3,8 +3,10 @@ nav{
 }
 
 .about-us-cont{
+    padding-top: 104px;
     height: calc(100vh );
     user-select: none;
+    overflow: hidden;
 }
 .left-about{
     width: 50%;
