@@ -1,0 +1,104 @@
+nav{
+    background-color: #000000;
+}
+
+.about-us-cont{
+    height: calc(100vh );
+    user-select: none;
+}
+.left-about{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 80px;
+    text-align: justify;
+}
+.right-about{
+    width: 50%;
+    background-color: var(--main-yellow);
+    justify-content: center;
+    align-items: center;
+}
+.right-about img{
+    width: 100%;
+    animation:imagefloat 40s ease-in-out infinite ;
+}
+
+
+/*------what we do----- */
+.what-we-do{
+    background-color: #333;
+    height: calc(100vh - 104px);
+}
+.wwd-cont{
+    align-items: center;
+    justify-content: space-between
+}
+.left-wwd img{
+    width: 100%;
+    animation:imagefloat 40s ease-in-out infinite ;
+
+}
+.left-wwd{
+    width: 40%;
+}
+.right-wwd{
+    width: 60%;
+    padding: 0 80px;
+}
+.right-wwd h1{
+    font-family: asmi;
+}
+.right-wwd p{
+    color: white;
+    text-align: justify;
+    line-height: 30px;
+}
+
+/* ---leadership--- */
+
+.leadership{
+    background-color: var(--main-yellow);
+    height: calc(100vh - 104px);
+    overflow: hidden;
+}
+.lead-cont{
+    justify-content: space-between;
+    align-items: center;
+}
+.right-lead img{
+    width: 100%;
+    animation:imagefloat 40s ease-in-out infinite ;
+}
+.right-lead{
+    width: 30%;
+}
+.left-lead{
+    width: 50%;
+    padding: 0 50px;
+}
+.left-lead h1{
+    font-family: asmi;
+}
+.white{
+    color: white;
+}
+
+/* --kingship */
+
+.kingship{
+    background-color: white;
+}
+
+/*--- comments--- */
+.comments{
+    background-color: var(--main-yellow);
+}
+.comment-cont{
+    height: 70vh;
+}
+
+.comments-card h3{
+    color: black !important;
+}
