@@ -319,7 +319,7 @@ nav.fixed{
 /* lets-talk */
 .lets-talk{
     background-color: #ababab;
-    
+    user-select: none;
 }
 .talk-left img{
     width: 100%;
@@ -353,6 +353,7 @@ footer{
     background-color: black;
     color: white !important;
     font-family: asmi;
+    user-select: none;
 }
 .main-footer{
     justify-content: space-evenly;
