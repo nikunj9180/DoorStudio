@@ -26,13 +26,14 @@ nav.fixed{
     font-size: 14px;
     letter-spacing: 1px;
     padding: 16px 15px;
+    transition: 0.3s all ease-in-out;
 }
 .navlinks li:nth-child(7) .navlink{
     color: var(--main-yellow);
 }
 .navlink:hover{
     color: var(--main-yellow);
-    transition: 0.3s all ease-in-out;
+    
 }
 .main-nav{
     justify-content: space-between;
