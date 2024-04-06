@@ -80,7 +80,6 @@ nav.fixed{
 }
 .right-banner img{
     width: 100%;
-    filter: brightness(0.8);
     animation:imagefloat 40s ease-in-out infinite ;
 }
 
